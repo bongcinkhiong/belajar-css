@@ -1,0 +1,70 @@
+/* span{ */
+    /* display: block; */
+    /* display: inline; */
+    /* background-color: red; */
+/* } */
+/* div{ */
+    /* display: block; */
+    /* display: inline; */
+    /* background-color: blue; */
+/* } */
+html, body{
+    margin: 0;
+}body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    position: sticky;
+    top: 0;
+    background-color: #78909C;
+    padding: 10px 20px;
+    color: #fff;
+    z-index: 1;
+}
+header .title{
+    float: left;
+    width: 30%;
+}
+nav{
+    width: 70%;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+#home, #about, #contact{
+    text-align: center;
+    position: relative;
+    font-size: 100px;
+    height: 100vh;
+    color: #fff;
+}
+#home div, #about div, #contact div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#home{
+    background-color: #546E7A;
+}
+#about{
+    background-color: #546E7A;
+}
+#contact{
+    background-color: #546E7A;
+}
+marquee{
+    font-size: 100px;
+    color: #fff;
+    background-color: #1f1f1f4e;
+}
